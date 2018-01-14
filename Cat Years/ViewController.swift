@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,8 +25,19 @@ class ViewController: UIViewController {
 
     @IBAction func ageBtn(_ sender: Any) {
         
-        
+        // checking to see if something was added to textfield
+        if let age = textField.text{
+            
+            // check to see if number was entered
+            if let ageAsNumber = Int(age) {
+            
+                // using 7 in age factor calculation
+                let ageInHumanYears = ageAsNumber * 7
+
+                // printing results on screen label under button
+                answerLbl.text = "Your cat is \(ageInHumanYears) in Human Years"
+            }
+        }
     }
-    
 }
 

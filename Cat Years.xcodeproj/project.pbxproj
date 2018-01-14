@@ -12,6 +12,7 @@
 		AC6F5434200AFDC60023B409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6F5432200AFDC60023B409 /* Main.storyboard */; };
 		AC6F5436200AFDC60023B409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6F5435200AFDC60023B409 /* Assets.xcassets */; };
 		AC6F5439200AFDC60023B409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6F5437200AFDC60023B409 /* LaunchScreen.storyboard */; };
+		AC6F5441200B10700023B409 /* Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6F5440200B10700023B409 /* Cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC6F5435200AFDC60023B409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6F5438200AFDC60023B409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6F543A200AFDC60023B409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6F5440200B10700023B409 /* Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AC6F542E200AFDC60023B409 /* AppDelegate.swift */,
 				AC6F5430200AFDC60023B409 /* ViewController.swift */,
 				AC6F5432200AFDC60023B409 /* Main.storyboard */,
+				AC6F5440200B10700023B409 /* Cat.jpg */,
 				AC6F5435200AFDC60023B409 /* Assets.xcassets */,
 				AC6F5437200AFDC60023B409 /* LaunchScreen.storyboard */,
 				AC6F543A200AFDC60023B409 /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				AC6F5439200AFDC60023B409 /* LaunchScreen.storyboard in Resources */,
 				AC6F5436200AFDC60023B409 /* Assets.xcassets in Resources */,
+				AC6F5441200B10700023B409 /* Cat.jpg in Resources */,
 				AC6F5434200AFDC60023B409 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
