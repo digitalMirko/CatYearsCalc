@@ -45,6 +45,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="197" id="irG-rn-lg4"/>
                                 </constraints>
                                 <state key="normal" title="Get Age in Human Years"/>
+                                <connections>
+                                    <action selector="ageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F2w-5x-TVU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Cat is 33 in Human Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbh-ma-eIF">
                                 <rect key="frame" x="16" y="225" width="343" height="20.5"/>
@@ -95,6 +98,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="answerLbl" destination="Qbh-ma-eIF" id="Mco-fY-b57"/>
+                        <outlet property="textField" destination="Jaz-Cx-zab" id="EZO-xn-fW2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
